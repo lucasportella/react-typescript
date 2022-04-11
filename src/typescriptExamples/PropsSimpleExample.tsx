@@ -5,7 +5,7 @@ interface ComponentProps {
 }
 
 const PropsSimpleExample = ({someProps}: ComponentProps) => {
- return <div>{someProps}</div>
+ return <section>{someProps}</section>
 }
 
 export default PropsSimpleExample
