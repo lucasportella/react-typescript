@@ -7,7 +7,7 @@ function App() {
   return (
     <div >
       <PropsExample someProps='this is some props'/>
-      <OptionalPropExample someProps='this is some props'/>
+      <OptionalPropExample someProps='this is some props'/> {/* optional prop intentionally not passed in this component*/}
     </div>
   );
 }
