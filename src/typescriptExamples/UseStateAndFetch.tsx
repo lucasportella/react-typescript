@@ -19,10 +19,10 @@ const fetchUser = () => {
     })
 }
 return (
-    <>
+    <section>
     <button type="button" onClick={fetchUser}>Fetch user</button>
     {user && <p>Hello {user.name}!</p>}
-    </>
+    </section>
 )
 
 }
