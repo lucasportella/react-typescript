@@ -6,6 +6,7 @@ import OnChangeComponent from './typescriptExamples/OnChangeAndLearnToHover';
 import { InputValueProvider } from './typescriptExamples/context/Context';
 import ComponentForContext from './typescriptExamples/context/ComponentForContext';
 import Generics from './typescriptExamples/generics/Generics';
+import TypeNarrowing from './typescriptExamples/typeNarrowing/TypeNarrowing';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <ComponentForContext />
       </InputValueProvider>
       <Generics />
+      <TypeNarrowing />
     </div>
   );
 }
