@@ -40,6 +40,11 @@ const InputValueContext = createContext<{
 
 function InputValueProvider({children}: InputProviderProps) {
   const [state, dispatch] = useReducer(reducer, initialState);
+// we could have created an interface Context instead:
+// interface Context {
+//     state: AppState;
+//   dispatch: React.Dispatch<Action>
+// }
 
   return (
     <InputValueContext.Provider value={{ state, dispatch }}>
