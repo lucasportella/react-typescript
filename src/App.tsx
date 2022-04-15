@@ -5,6 +5,7 @@ import UseStateAndFetch from './typescriptExamples/UseStateAndFetch';
 import OnChangeComponent from './typescriptExamples/OnChangeAndLearnToHover';
 import { InputValueProvider } from './typescriptExamples/context/Context';
 import ComponentForContext from './typescriptExamples/context/ComponentForContext';
+import Generics from './typescriptExamples/generics/Generics';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <InputValueProvider>
       <ComponentForContext />
       </InputValueProvider>
+      <Generics />
     </div>
   );
 }
